@@ -1,0 +1,92 @@
+.product > * {
+  float: left;
+}
+
+.product {
+  padding: 30px;
+  width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: 1px solid rgb(31, 31, 31);
+  margin: 10px;
+}
+
+.deleteButton {
+  background-color: transparent;
+  border: 1px solid red;
+  color: red;
+}
+
+.deleteButton:active {
+  background-color: red;
+  color: white;
+}
+
+.quantity {
+  background-color: rgb(83, 68, 88);
+  color: rgb(222, 138, 255);
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: default;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.bgButton {
+  /* padding: 5px 13px; */
+  width: 40px;
+  height: 40px;
+  background-color: rgb(85, 76, 90);
+  border: 1px solid rgb(222, 138, 255);
+  color: rgb(222, 138, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgButton:active {
+  background-color: rgb(222, 138, 255);
+  color: rgb(85, 76, 90);
+}
+
+.titleInput {
+  border: 1px solid rgb(222, 138, 255);
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  margin: 3px;
+}
+
+.titleInput:focus {
+  border: 3px solid rgb(222, 138, 255);
+  margin: 0;
+}
+
+.remove {
+  border: 1px solid rgb(255, 75, 75);
+  color: rgb(255, 75, 75);
+  background-color: rgb(97, 74, 74);
+}
+
+.remove:active {
+  background-color: rgb(255, 75, 75);
+  color: rgb(85, 76, 90);
+}
+
+.productName {
+  width: 250px;
+}
+
+.productPrice {
+  width: 150px;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: transparent;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(71, 71, 71);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#titleApp {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  user-select: none;
+}

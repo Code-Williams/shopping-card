@@ -1,0 +1,21 @@
+#clearCard {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(246, 73, 73);
+  user-select: none;
+}
+
+.productInformation {
+  box-shadow: 3px 3px 5px 5px rgb(66, 66, 66);
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(94, 94, 94);
+  float: left;
+}
